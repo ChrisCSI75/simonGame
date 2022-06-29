@@ -10,7 +10,7 @@ var level = 0;
 
 $(document).on("keypress", start);
 
-$(".start").on("click", start);
+$("#start").on("click", start);
 
 function nextSequence() {
     userClickedPattern = [];
